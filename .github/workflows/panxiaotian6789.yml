@@ -3,8 +3,7 @@ name: panxiaotian6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 5/6 * * *'
-
+    - cron: '40 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,10 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: panxiaotian6789
         env:
-          x44: ${{ secrets.x44 }}
+          njbem8: ${{ secrets.njbem8 }}
         run: |
-          echo $x44 | jq -r .x3 | /bin/bash
-          echo $wznt2386 | jq -r .h842 | /bin/bash
-          echo $fhgw87 | jq -r .f63 | /bin/bash
-          echo $x60 | jq -r .fyc3 | /bin/bash
+          echo $njbem8 | jq -r .pmrzq3446 | /bin/bash
+          echo $wemn8239 | jq -r .wfhp6997 | /bin/bash
+          echo $djd43 | jq -r .jhcnu4390 | /bin/bash
+          echo $g0 | jq -r .dcuq28 | /bin/bash
+          echo $d93 | jq -r .ob2190 | /bin/bash
+          echo $qvcv72472 | jq -r .wmao14535 | /bin/bash
+          echo $akrvr592 | jq -r .jwbcm21760 | /bin/bash
+          echo $qrp7526 | jq -r .w1606 | /bin/bash
+          echo $blbva23 | jq -r .z63649 | /bin/bash
 
